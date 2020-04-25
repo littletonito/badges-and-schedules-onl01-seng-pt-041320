@@ -25,13 +25,10 @@ def assign_rooms(attendees)
 end
 
 
-
-
 def printer(guide)
   batch_badge_creator(guide).each do |info|
     puts info
   end
-  
   
   assign_rooms(guide).each do |info|
   puts info
