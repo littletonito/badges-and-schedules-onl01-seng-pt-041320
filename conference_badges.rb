@@ -27,23 +27,16 @@ end
 
 
 
-#   room.each do |name|
-#     cuartos << ("Hello, #{name}! You'll be assigned to room #{counter}!")
-#     counter += 1
-#   end
-#   cuartos
-# end
-
-# def printer(guide)
-#   batch_badge_creator(guide).each do |info|
-#     puts info
-#   end
+def printer(guide)
+  batch_badge_creator(guide).each do |info|
+    puts info
+  end
   
   
-#   assign_rooms(guide).each do |info|
-#   puts info
-#   end
-# end
+  assign_rooms(guide).each do |info|
+  puts info
+  end
+end
 
 
 
